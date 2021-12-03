@@ -1,0 +1,115 @@
+
+.container{
+  margin-top: 50px;
+ 
+}
+
+.container h1{
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+
+form{
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+
+
+label{
+  font-weight: 600;
+}
+
+.form-control{
+  margin-bottom: 1.25rem;
+  font-weight: 500;
+  height: unset;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+
+.form-select{
+  display: block;
+  padding: .625rem;
+  width: 100%;
+
+}
+
+.error-msg-text{
+  margin-top: -1.2rem;
+  margin-bottom: .5rem;
+  color: red;
+}
+
+.error-input{
+  border: 1px solid red !important;
+}
+
+.error-msg-text.dropdown{
+  margin-top:-1.1rem;
+}
+
+.thank-you-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.user-input{
+  border: 1px solid rgb(108 72 62);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.thank-you-container h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input, select{
+  -webkit-transition: 1s; /* Safari */
+  transition: 1s;
+}
+
+input[type=text]:hover,input[type=email]:hover, select:hover{
+  box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+input[type=text]:focus,input[type=email]:focus, select:focus{
+  box-shadow: 0 0 5pt 2pt #D3D3D3;
+  outline-width: 0px;
+}
+
+.btn-primary{
+  margin-bottom: 20px;
+  -webkit-transition: .3s; /* Safari */
+  transition: .3s;
+  background-color: #9f47cd;
+  border: 1px solid #d48ee5 !important;
+}
+
+.btn-primary:hover{
+  background-color: #5e1919;
+  background-color: #c57aed;
+  border: 1px solid #c57aed !important;
+  color: #000;
+}
+
+.error-page-container{
+  padding: 0px 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.error-page-container h2{
+  text-align: center;
+  margin-bottom: 30px;
+}
