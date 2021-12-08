@@ -56,7 +56,7 @@ const useForm = (validateInfo) => {
                 fetch(`${url}`,{
                 method: 'POST',
                 headers: {"Content-Type": "application/json"},
-                body: JSON.stringify(userList)
+                body: JSON.stringify([...userList,newList])
                 }).then(()=> {
                     navigate(`merci/${first_name}`);
                     console.log('request posted')
